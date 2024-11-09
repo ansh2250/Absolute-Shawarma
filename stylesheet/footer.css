@@ -1,0 +1,66 @@
+/* Footer Styles */
+#footer {
+    background-color: var(--logo);
+    color: #ffffff; /* Dark color for text for better readability */
+    font-family: 'Arial', sans-serif; /* Ensuring a universally readable font is used */
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    width: 100%;
+    transition: background-size 0.5s;
+}
+.element-with-background:hover {
+    background-size: 120%; /* Zooms out the background image by 20% on hover */
+}
+
+.footer img {
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+.footer h4 {
+    color: #ffffff; /* Slightly darker color for headings for emphasis */
+    font-size: 18px; /* Slightly larger size for headings */
+    margin-bottom: 15px; /* Space below headings */
+}
+
+.footer ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes default margin */
+}
+
+.footer ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.footer ul li a {
+    color: #ffffff; /* Color of the links */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer ul li a:hover {
+    color: #ffffff; /* Darker color on hover for better interaction feedback */
+}
+
+.footer p {
+    margin-top: 10px; /* Space above the text paragraph for location */
+    line-height: 1.5; /* Improves readability of the address */
+}
+.fa-brands {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; /* Center aligns all text in smaller screens */
+    }
+
+    .footer .col-md-4 {
+        margin-bottom: 20px; /* Adds space below each section on small screens */
+    }
+
+    .footer .col-md-4:last-child {
+        margin-bottom: 0; /* Removes additional space below the last section */
+    }
+}
